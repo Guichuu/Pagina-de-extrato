@@ -1,0 +1,95 @@
+/*Corpo*/
+
+body {
+    padding: 10px;
+    height: 100vh;
+}
+
+/*Cabeçalho*/
+
+header img {
+    width: 50px;
+}
+
+header h3{
+    text-align: center;
+}
+  
+/*Container*/
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+    padding: 10px;
+    height: 50%;
+    width: 30%;
+}
+  
+  #selecao {
+    width: 100%;
+    height: 80%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+input {
+    margin: 5px;
+    border-radius: 13px;
+}
+
+
+#btnCarregaDados{
+    border-radius: 13px;
+}
+
+/*Menu lateral*/
+
+nav {
+    background-color: #ccc;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+
+nav div{
+    display: block;
+    align-items: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+nav div h5{
+    margin: 5px;
+}
+
+#btnupload{
+    border-radius: 13px;
+}
+
+#btnexcluir{
+    border-radius: 13px;
+}
+
+#teste{
+    color: blue;
+}
+
+#tela{
+    background-color: #f0f0f0;
+    padding: 5px;
+    display: block;
+    align-items: center;
+}
+
+#pai {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 100%;
+}
+
+#inputextrato{
+    width: 52%;
+}
